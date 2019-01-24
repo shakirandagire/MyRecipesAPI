@@ -1,0 +1,24 @@
+{
+  "name": "myrecipes",
+  "version": "1.0.0",
+  "description": "An application that enables users to manage your favorite recipes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test MONGO_URI=mongodb://someuser:abcd1234@ds217452.mlab.com:17452/recipestestdb jest --coverage"
+  },
+  "author": "Shakira Ndagire",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "superagent": "^4.1.0",
+    "supertest": "^3.3.0"
+  }
+}
